@@ -28,8 +28,16 @@ if ARGV[0] == "down"
   status
 end
 
-if ARGV[0] == ""
-  status
+if ARGV == %w(go matt)
+  puts "calling matt(35)..."
+  sleep 1.5
+  puts "  ringing"
+  sleep 1.8
+  puts "  ringing"
+  sleep 1.8
+  puts "  ringing"
+  sleep 1.8
+  puts "  connected!"
 end
 
 if ARGV.empty?
