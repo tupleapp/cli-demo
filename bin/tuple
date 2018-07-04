@@ -12,8 +12,8 @@ def status
   puts "friends:"
   puts "  matt(35)     ".white + "online".green
   puts "  joel(2)      ".white + "offline".red
-  puts "  adam(18)     ".white + "offline".red
-  puts "  spencer(18)  ".white + "offline".red
+  puts "  adam(19)     ".white + "offline".red
+  puts "  spencer(3)  ".white + "offline".red
 end
 
 if ARGV[0] == "up"
