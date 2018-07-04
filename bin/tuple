@@ -36,8 +36,9 @@ if ARGV == %w(go matt)
   puts "  ringing"
   sleep 1.9
   puts "  ringing"
-  sleep 0.4
+  sleep 0.5
   puts "  connected."
+  sleep 0.4
   puts "  happy pairing!"
 end
 
